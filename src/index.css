@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -117,7 +117,10 @@
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    font-family: 'PT Sans', system-ui, sans-serif;
+    font-family: "Georgia", serif;
+    background: linear-gradient(135deg, #fff0f5 0%, #fffde7 40%, #e3f2fd 100%);
+    min-height: 100vh;
+    color: #111;
   }
 
   html {
@@ -131,10 +134,10 @@
   }
 
   .font-serif {
-    font-family: 'Lora', Georgia, serif;
+    font-family: "Lora", Georgia, serif;
   }
 
   .font-sans {
-    font-family: 'PT Sans', system-ui, sans-serif;
+    font-family: "PT Sans", system-ui, sans-serif;
   }
 }
